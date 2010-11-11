@@ -337,7 +337,6 @@ static inline int nl_cb_call(struct nl_cb *cb, int type, struct nl_msg *msg)
 }
 
 #define ARRAY_SIZE(X) (sizeof(X) / sizeof((X)[0]))
-#define offsetof(TYPE, MEMBER) ((size_t) &((TYPE *)0)->MEMBER)
 
 #define __init __attribute__ ((constructor))
 #define __exit __attribute__ ((destructor))
