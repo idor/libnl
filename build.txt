@@ -1,0 +1,5 @@
+./autogen.sh
+
+./configure --host=arm CC=arm-none-linux-gnueabi-gcc AR=arm-none-linux-gnueabi-ar
+
+make
